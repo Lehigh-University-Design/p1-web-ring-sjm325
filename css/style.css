@@ -78,7 +78,6 @@ main h1 {
 color: var(--header-color);
 margin-bottom: 15px;
 margin-top: 15px;
-border-spacing: 30px;
 }
 
 main p {
@@ -94,4 +93,8 @@ main p {
   margin-right: 20px;
   margin-bottom: 20px;
 
+}
+#intro2 {
+
+  
 }
