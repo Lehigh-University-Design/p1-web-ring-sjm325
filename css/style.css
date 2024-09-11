@@ -2,8 +2,8 @@
     --background-color: rgb(237, 246, 248);
     --light-color: #ffffff;
     --dark-color: #000000;
-    --link-color: rgb(196, 16, 205);
-    --header-color: rgb(12, 107, 126);
+    --link-color: rgb(46, 46, 59);
+    --header-color: rgb(78, 70, 88);
   }
 
   * {
@@ -30,10 +30,11 @@ main {
     }
       
 #head {
-    background-color: lightblue;
+    background-color: rgb(230, 208, 173);
     color: var(--dark-color);
     padding: 20px;
     text-align: center;
+    font-family: sans-serif;
 
 }
 
@@ -46,18 +47,51 @@ padding-left: 10px;
 li a {
   text-decoration: none;
   font-size: 20px;
+  color: var(--link-color);
+  margin-right: 50px;
 }
 
 .heading-img {
   height: 100px;
 }
 
+#intro {
+  width: 100%;
+  height: 700px;
+  background-image: url("../Images/lauryn-hill-miseducation-podcast.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#intro h1{
+  font-size: 110px;
+  color: rgb(241, 231, 215);
+  font-family: cursive;
+  font-weight: normal;
+  letter-spacing: 10px;
+  
+
+}
 main h1 {
 color: var(--header-color);
 margin-bottom: 15px;
 margin-top: 15px;
+border-spacing: 30px;
 }
 
 main p {
   margin-bottom: 10px;
+}
+#gallery {
+  width: 80%;
+  margin: auto;
+
+}
+#gallery img {
+  width:40%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
 }
